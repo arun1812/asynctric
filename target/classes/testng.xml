@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Asyncentric Technology Automation Test" verbose="1" >
+  <test name="Asyncentric test">
+    <classes>
+      	  <class name="com.asynctric.qa.Testcase.LoginPageTest"/>
+      	  <class name="com.asynctric.qa.Testcase.HomePageTest"/>
+          <class name="com.asynctric.qa.Testcase.AddressPageTest"/>
+    </classes>
+  </test>
+  </suite>

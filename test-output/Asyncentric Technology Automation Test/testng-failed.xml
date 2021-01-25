@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Asyncentric Technology Automation Test]">
+  <test name="Asyncentric test(failed)">
+    <classes>
+      <class name="com.asynctric.qa.Testcase.LoginPageTest">
+        <methods>
+          <include name="LoginPageTitleTest"/>
+          <include name="setup"/>
+          <include name="LoginTest"/>
+          <include name="VlidateImageTest"/>
+          <include name="TearDowm"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Asyncentric test(failed) -->
+</suite> <!-- Failed suite [Asyncentric Technology Automation Test] -->
