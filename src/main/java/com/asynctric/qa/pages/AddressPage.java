@@ -1,5 +1,6 @@
 package com.asynctric.qa.pages;
 
+
 import java.io.IOException;
 import java.util.List;
 
@@ -51,7 +52,7 @@ public class AddressPage extends TestBase {
 	
 	public void NewAddressForm() throws InterruptedException
 	{
-		
+	
 		address.click();
 		Thread.sleep(5000);
 		//WebDriverWait w=new WebDriverWait(driver, 50);

@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66579" started-at="2021-01-25T11:10:08Z" finished-at="2021-01-25T11:11:15Z">
+  <suite name="Default suite" duration-ms="41422" started-at="2021-01-25T11:25:52Z" finished-at="2021-01-25T11:26:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66579" started-at="2021-01-25T11:10:08Z" finished-at="2021-01-25T11:11:15Z">
-      <class name="com.asynctric.qa.Testcase.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="setup" is-config="true" duration-ms="11460" started-at="2021-01-25T16:40:08Z" finished-at="2021-01-25T16:40:20Z">
+    <test name="Default test" duration-ms="41422" started-at="2021-01-25T11:25:52Z" finished-at="2021-01-25T11:26:33Z">
+      <class name="com.asynctric.qa.Testcase.AddressPageTest">
+        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@59fa1d9b]" name="setpage" is-config="true" duration-ms="24075" started-at="2021-01-25T16:55:52Z" finished-at="2021-01-25T16:56:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="LoginPageTitleTest" duration-ms="74" started-at="2021-01-25T16:40:20Z" finished-at="2021-01-25T16:40:20Z">
+        </test-method> <!-- setpage -->
+        <test-method status="PASS" signature="NewAddressFormTest()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@59fa1d9b]" name="NewAddressFormTest" duration-ms="16519" started-at="2021-01-25T16:56:16Z" finished-at="2021-01-25T16:56:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="TearDowm" is-config="true" duration-ms="867" started-at="2021-01-25T16:40:20Z" finished-at="2021-01-25T16:40:20Z">
+        </test-method> <!-- NewAddressFormTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@59fa1d9b]" name="TearDown" is-config="true" duration-ms="788" started-at="2021-01-25T16:56:32Z" finished-at="2021-01-25T16:56:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDowm -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="setup" is-config="true" duration-ms="38024" started-at="2021-01-25T16:40:20Z" finished-at="2021-01-25T16:40:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VlidateImageTest()[pri:2, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="VlidateImageTest" duration-ms="455" started-at="2021-01-25T16:40:59Z" finished-at="2021-01-25T16:40:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VlidateImageTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="TearDowm" is-config="true" duration-ms="754" started-at="2021-01-25T16:40:59Z" finished-at="2021-01-25T16:41:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDowm -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="setup" is-config="true" duration-ms="13069" started-at="2021-01-25T16:41:00Z" finished-at="2021-01-25T16:41:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="LoginTest" duration-ms="867" started-at="2021-01-25T16:41:13Z" finished-at="2021-01-25T16:41:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@59fa1d9b]" name="TearDowm" is-config="true" duration-ms="972" started-at="2021-01-25T16:41:14Z" finished-at="2021-01-25T16:41:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDowm -->
-      </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.asynctric.qa.Testcase.AddressPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
