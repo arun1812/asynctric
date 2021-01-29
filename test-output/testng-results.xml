@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41422" started-at="2021-01-25T11:25:52Z" finished-at="2021-01-25T11:26:33Z">
+  <suite name="Default suite" duration-ms="153477" started-at="2021-01-29T11:17:36Z" finished-at="2021-01-29T11:20:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41422" started-at="2021-01-25T11:25:52Z" finished-at="2021-01-25T11:26:33Z">
+    <test name="Default test" duration-ms="153477" started-at="2021-01-29T11:17:36Z" finished-at="2021-01-29T11:20:10Z">
       <class name="com.asynctric.qa.Testcase.AddressPageTest">
-        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@59fa1d9b]" name="setpage" is-config="true" duration-ms="24075" started-at="2021-01-25T16:55:52Z" finished-at="2021-01-25T16:56:16Z">
+        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@3bfdc050]" name="setpage" is-config="true" duration-ms="40449" started-at="2021-01-29T16:47:36Z" finished-at="2021-01-29T16:48:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setpage -->
-        <test-method status="PASS" signature="NewAddressFormTest()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@59fa1d9b]" name="NewAddressFormTest" duration-ms="16519" started-at="2021-01-25T16:56:16Z" finished-at="2021-01-25T16:56:32Z">
+        <test-method status="PASS" signature="NewAddressFormTest()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@3bfdc050]" name="NewAddressFormTest" duration-ms="111441" started-at="2021-01-29T16:48:17Z" finished-at="2021-01-29T16:50:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewAddressFormTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@59fa1d9b]" name="TearDown" is-config="true" duration-ms="788" started-at="2021-01-25T16:56:32Z" finished-at="2021-01-25T16:56:33Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@3bfdc050]" name="TearDown" is-config="true" duration-ms="1537" started-at="2021-01-29T16:50:08Z" finished-at="2021-01-29T16:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

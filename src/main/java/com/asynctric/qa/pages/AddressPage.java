@@ -10,8 +10,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
 
 import com.asynctric.qa.base.TestBase;
+import com.asynctric.qa.util.ExcelReader;
+import com.asynctric.qa.util.TestUtil;
 
 public class AddressPage extends TestBase {
 
@@ -50,14 +53,20 @@ public class AddressPage extends TestBase {
 	@FindBy(xpath="//span[@id='snackbar-message-id']")
 	WebElement coformationmessage;
 	
+
+	
 	public void NewAddressForm() throws InterruptedException
 	{
 	
+		
 		address.click();
-		Thread.sleep(5000);
+	//	Thread.sleep(5000);
 		//WebDriverWait w=new WebDriverWait(driver, 50);
 		//w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),'Add new address')]")));
-		AddnewAddress.click();
+		
+	// Using Config file 
+		
+	/*	AddnewAddress.click();
 		name.sendKeys(prop.getProperty("Name"));
 		AddressLine1.sendKeys(prop.getProperty("Addressline1"));
 		AddressLine2.sendKeys(prop.getProperty("AddressLine2"));
@@ -80,6 +89,50 @@ public class AddressPage extends TestBase {
 		Thread.sleep(5000);
 		 System.out.println(coformationmessage.getText()); 
 		
+		 */
+// Using Excel Sheet	 
+	
+		ExcelReader Reader= new ExcelReader("D:\\Projects\\Asyncentric\\src\\main\\java\\com\\asynctric\\qa\\testdata\\AddressTestData.xlsx");
+	int RowCount=Reader.getRowCount("Address");
+	System.out.println(RowCount);
+	for(int RowNum=2; RowNum<=RowCount;RowNum++ )
+	{
+		Thread.sleep(5000);
+	String Name=Reader.getCellData("Address", "Name", RowNum);
+	String Address=Reader.getCellData("Address", "Add Line 1", RowNum);
+	String Address2=Reader.getCellData("Address", "Add Line 2", RowNum);
+	String LandMark=Reader.getCellData("Address", "Land Mark", RowNum);
+	String City=Reader.getCellData("Address", "City", RowNum);
+	String State1=Reader.getCellData("Address", "State", RowNum);
+	String Pincode=Reader.getCellData("Address", "Pincode", RowNum);
+	String Mobile=Reader.getCellData("Address", "Mobile", RowNum);
+		
+			AddnewAddress.click();
+		 
+			name.sendKeys(Name);
+			AddressLine1.sendKeys(Address);
+			AddressLine2.sendKeys(Address2);
+			landmark.sendKeys(LandMark);
+			city.sendKeys(City);
+			Thread.sleep(2000);
+			state.click();
+			
+		    for(int i=0; i<list.size(); i++)
+			{
+				System.out.println(list.get(i).getText());
+				if(list.get(i).getText().equals(State1))
+				{
+					list.get(i).click();
+				break;
+				}
+			}
+			pincode.sendKeys(Pincode);
+			mobile.sendKeys(Mobile);
+			save.click();
+			Thread.sleep(5000);
+			 System.out.println(coformationmessage.getText()); 
+			 
+	}
 	}
 	
 }
