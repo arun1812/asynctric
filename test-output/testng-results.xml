@@ -1,25 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="153477" started-at="2021-01-29T11:17:36Z" finished-at="2021-01-29T11:20:10Z">
+  <suite name="Default suite" duration-ms="111544" started-at="2021-01-30T10:59:09Z" finished-at="2021-01-30T11:01:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="153477" started-at="2021-01-29T11:17:36Z" finished-at="2021-01-29T11:20:10Z">
-      <class name="com.asynctric.qa.Testcase.AddressPageTest">
-        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@3bfdc050]" name="setpage" is-config="true" duration-ms="40449" started-at="2021-01-29T16:47:36Z" finished-at="2021-01-29T16:48:17Z">
+    <test name="Default test" duration-ms="111544" started-at="2021-01-30T10:59:09Z" finished-at="2021-01-30T11:01:00Z">
+      <class name="com.asynctric.qa.Testcase.RegistrationPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="13683" started-at="2021-01-30T16:29:09Z" finished-at="2021-01-30T16:29:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setpage -->
-        <test-method status="PASS" signature="NewAddressFormTest()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@3bfdc050]" name="NewAddressFormTest" duration-ms="111441" started-at="2021-01-29T16:48:17Z" finished-at="2021-01-29T16:50:08Z">
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ValidateRegPageURLTest()[pri:1, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="ValidateRegPageURLTest" duration-ms="431" started-at="2021-01-30T16:29:23Z" finished-at="2021-01-30T16:29:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NewAddressFormTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.AddressPageTest@3bfdc050]" name="TearDown" is-config="true" duration-ms="1537" started-at="2021-01-29T16:50:08Z" finished-at="2021-01-29T16:50:10Z">
+        </test-method> <!-- ValidateRegPageURLTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="1168" started-at="2021-01-30T16:29:23Z" finished-at="2021-01-30T16:29:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.asynctric.qa.Testcase.AddressPageTest -->
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="22715" started-at="2021-01-30T16:29:24Z" finished-at="2021-01-30T16:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ValidateRegPageTextTest()[pri:2, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="ValidateRegPageTextTest" duration-ms="247" started-at="2021-01-30T16:29:47Z" finished-at="2021-01-30T16:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRegPageTextTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="808" started-at="2021-01-30T16:29:47Z" finished-at="2021-01-30T16:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="8609" started-at="2021-01-30T16:29:48Z" finished-at="2021-01-30T16:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="RegFormNameTest()[pri:3, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="RegFormNameTest" duration-ms="1679" started-at="2021-01-30T16:29:57Z" finished-at="2021-01-30T16:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegFormNameTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="853" started-at="2021-01-30T16:29:58Z" finished-at="2021-01-30T16:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="8654" started-at="2021-01-30T16:29:59Z" finished-at="2021-01-30T16:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="RegFormEmailTest()[pri:4, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="RegFormEmailTest" duration-ms="1534" started-at="2021-01-30T16:30:08Z" finished-at="2021-01-30T16:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegFormEmailTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="1486" started-at="2021-01-30T16:30:09Z" finished-at="2021-01-30T16:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="17365" started-at="2021-01-30T16:30:11Z" finished-at="2021-01-30T16:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="RegFormMobileTest()[pri:5, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="RegFormMobileTest" duration-ms="1519" started-at="2021-01-30T16:30:28Z" finished-at="2021-01-30T16:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegFormMobileTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="817" started-at="2021-01-30T16:30:30Z" finished-at="2021-01-30T16:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="15513" started-at="2021-01-30T16:30:30Z" finished-at="2021-01-30T16:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="RegFormPasswordTest()[pri:6, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="RegFormPasswordTest" duration-ms="1681" started-at="2021-01-30T16:30:46Z" finished-at="2021-01-30T16:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegFormPasswordTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="1500" started-at="2021-01-30T16:30:48Z" finished-at="2021-01-30T16:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Setup" is-config="true" duration-ms="6468" started-at="2021-01-30T16:30:49Z" finished-at="2021-01-30T16:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="RegFormTest()[pri:7, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="RegFormTest" duration-ms="3468" started-at="2021-01-30T16:30:56Z" finished-at="2021-01-30T16:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegFormTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@3bfdc050]" name="Teardown" is-config="true" duration-ms="1302" started-at="2021-01-30T16:30:59Z" finished-at="2021-01-30T16:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.asynctric.qa.Testcase.RegistrationPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
