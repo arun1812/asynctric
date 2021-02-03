@@ -4,17 +4,12 @@ package com.asynctric.qa.pages;
 import java.io.IOException;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.DataProvider;
 
 import com.asynctric.qa.base.TestBase;
 import com.asynctric.qa.util.ExcelReader;
-import com.asynctric.qa.util.TestUtil;
 
 public class AddressPage extends TestBase {
 
@@ -133,6 +128,7 @@ public class AddressPage extends TestBase {
 			 System.out.println(coformationmessage.getText()); 
 			 
 	}
+	
 	}
 	
 }

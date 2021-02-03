@@ -29,6 +29,8 @@ public class RegistrationPageTest extends TestBase{
 		Initialization();
 		regpage= new RegistrationPage();
 	}
+	
+	
 	@Test(priority=1)
 	public void ValidateRegPageURLTest()
 	{
@@ -43,6 +45,13 @@ public class RegistrationPageTest extends TestBase{
 		Assert.assertEquals(text, "Signup with Asyncentric");
 		System.out.println("Current Page text : " + text );
 	}
+	@Test(priority=3)
+	public void RegFormExcelTest() throws InterruptedException
+	{
+		regpage.RegFormExcel();
+		
+	}
+	/*
 	@Test(priority=3)
 	public void RegFormNameTest()
 	{
@@ -74,7 +83,7 @@ public class RegistrationPageTest extends TestBase{
 			regpage.Login();
 		
 		
-	}
+	}*/
 	
 	@AfterMethod
 	public void Teardown()

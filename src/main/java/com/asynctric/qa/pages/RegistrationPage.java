@@ -2,14 +2,17 @@ package com.asynctric.qa.pages;
 
 import java.io.IOException;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.asynctric.qa.base.TestBase;
+import com.asynctric.qa.util.ExcelReader;
 
 public class RegistrationPage extends TestBase {
 
+	public String conformationmsg;
 	public RegistrationPage() throws IOException {
 		super();
 		PageFactory.initElements(driver, this);
@@ -48,7 +51,44 @@ WebElement Login;
 		return RegistrationPageText.getText();
 	}
 
-	public String RegFormName()
+	public void RegFormExcel() throws InterruptedException
+	{
+		
+		ExcelReader reader= new ExcelReader("D:\\Projects\\Asyncentric\\src\\main\\java\\com\\asynctric\\qa\\testdata\\AddressTestData.xlsx");
+		int rowcount=reader.getRowCount("Registration");
+		System.out.println("Row Count for registration sheet is :" + rowcount);
+		Registration.click();
+		for(int rowNum=2;rowNum<=rowcount;rowNum++)
+		{
+			Thread.sleep(5000);
+		String name=reader.getCellData("Registration", "Name", rowNum);
+		String email=reader.getCellData("Registration", "Email", rowNum);
+		String mobile=reader.getCellData("Registration", "Mobile", rowNum);
+		String password=reader.getCellData("Registration", "Password", rowNum);
+		
+		Name.clear();
+		Name.sendKeys(name);
+		Email.clear();
+		Email.sendKeys(email);
+		Mobile.clear();
+		Mobile.sendKeys(mobile);
+		Password.clear();
+		Password.sendKeys(password);
+		Submit.click();
+		
+		System.out.println(coformationmessage.getText());
+		conformationmsg=coformationmessage.getText();
+		if(conformationmsg.equals("Email already exists!")||conformationmsg.equals("Phone already exists!") )
+		{
+			Thread.sleep(3000);
+			Login.click();
+			System.out.println("After Registration URL is :"+ driver.getCurrentUrl());
+		}
+		}
+		
+		
+	}
+	/*public String RegFormName()
 	{
 		Registration.click();
 	//	Name.clear();
@@ -94,7 +134,7 @@ WebElement Login;
 		System.out.println(coformationmessage.getText());
 		return coformationmessage.getText();
 	}
-	public String RegFormPassword()
+	public void RegFormPassword()
 	{
 		Registration.click();
 		Name.clear();
@@ -107,7 +147,7 @@ WebElement Login;
 	//	Password.sendKeys("12345");
 		Submit.click();	
 		System.out.println(coformationmessage.getText());
-		return coformationmessage.getText();
+		//return coformationmessage.getText();
 	}
 	public String RegForm()
 	{
@@ -129,5 +169,5 @@ WebElement Login;
 		Login.click();
 		System.out.println("After Registration URL is :"+ driver.getCurrentUrl());
 		
-	}
+	}*/
 }

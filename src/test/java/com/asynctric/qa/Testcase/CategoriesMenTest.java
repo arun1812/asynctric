@@ -2,9 +2,10 @@ package com.asynctric.qa.Testcase;
 
 import java.io.IOException;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
 import com.asynctric.qa.base.TestBase;
@@ -23,7 +24,7 @@ public class CategoriesMenTest extends TestBase {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setpage() throws IOException 
 	{
 		Initialization();
@@ -49,5 +50,6 @@ public class CategoriesMenTest extends TestBase {
 	public void TearDown()
 	{
 		driver.quit();
+		
 	}
 }

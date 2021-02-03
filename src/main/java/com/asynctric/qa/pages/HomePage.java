@@ -1,7 +1,11 @@
 package com.asynctric.qa.pages;
 
 import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
 
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -27,6 +31,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//span[contains(text(),'Account')]")
 	WebElement account;
 	
+	@FindBy(xpath="//body/div[@id='root']/div[1]/footer[1]/div[2]/div[1]/div[4]/div[1]/a[1]/*[1]")
+	WebElement facebook;
+	
 	public boolean Validatehomepageimage()
 	{
 		return HomepageLogo.isDisplayed();
@@ -37,6 +44,17 @@ public class HomePage extends TestBase{
 		account.click();
 		return new AddressPage();
 		
+	}
+	public void scrolldown() throws InterruptedException
+	{
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,1000)");
+		Thread.sleep(3000);
+		facebook.click();
+		Set<String> window=driver.getWindowHandles();
+		Iterator<String> it=window.iterator();
+		driver.switchTo().window(it.next());
+		System.out.println(driver.getCurrentUrl());
 	}
 	
 }

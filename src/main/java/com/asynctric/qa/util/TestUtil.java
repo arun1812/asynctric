@@ -5,6 +5,8 @@ import org.apache.poi.ss.usermodel.Workbook;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -53,4 +55,13 @@ public class TestUtil extends TestBase {
 			}
 			return data;
 }
+		public String windowhandle()
+		{
+			Set<String>windows=driver.getWindowHandles();
+			Iterator<String> it=windows.iterator();
+			String	Parentwindow=it.next();
+			String	ChildWindow=it.next();
+			return ChildWindow;
+		}
+		
 }

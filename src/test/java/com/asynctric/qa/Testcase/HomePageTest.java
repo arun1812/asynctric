@@ -45,7 +45,11 @@ public class HomePageTest extends TestBase {
 		homepage.MoveToAddressPage();
 		System.out.println("Address Page Open");
 	}
-	
+	@Test(priority=3)
+	public void scrolldownTest() throws InterruptedException
+	{
+		homepage.scrolldown();
+	}
 	@AfterMethod
 	public void TearDown()
 	{

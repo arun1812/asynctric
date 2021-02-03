@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.asynctric.qa.Testcase.CategoriesMenTest">
+      <class name="com.asynctric.qa.Testcase.HomePageTest">
         <methods>
-          <include name="AddProductSecondTest"/>
-          <include name="setpage"/>
           <include name="TearDown"/>
+          <include name="scrolldownTest"/>
+          <include name="setuphomepage"/>
         </methods>
-      </class> <!-- com.asynctric.qa.Testcase.CategoriesMenTest -->
+      </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

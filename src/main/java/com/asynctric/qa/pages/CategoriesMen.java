@@ -12,11 +12,12 @@ import com.asynctric.qa.base.TestBase;
 
 public class CategoriesMen extends TestBase{
 
-//	String Parentwindow;
-//	String ChildWindow;
+	
+
 	public CategoriesMen() throws IOException {
 		super();
 		PageFactory.initElements(driver, this);
+		
 		// TODO Auto-generated constructor stub
 		}	
 // PageFactory  --- OR
@@ -31,8 +32,12 @@ WebElement Product1;
 WebElement Product1Add;
 @FindBy(xpath="//body/div[@id='root']/div[1]/div[3]/section[2]/a[2]/div[1]/img[1]")
 WebElement Product2;
-@FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/button[1]/span[1]")
-WebElement Product2add;
+@FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/section[1]/div[4]")
+WebElement Size;
+@FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/section[1]/div[3]")
+WebElement Color;
+@FindBy(xpath="//button[@id='add_to_cart_btn']")
+WebElement Product2add; //button[@id='add_to_cart_btn']
 @FindBy(xpath="//span[@id='snackbar-message-id']")
 WebElement coformationmessage;
 		
@@ -40,29 +45,38 @@ WebElement coformationmessage;
 	{
 		CategoryMen.click();
 		Subcategoryshirt.click();
+		Thread.sleep(3000);
 		Product1.click();
-		Set<String>windows=driver.getWindowHandles();
-		Iterator<String> it=windows.iterator();
-		String	Parentwindow=it.next();
-		String	ChildWindow=it.next();
-		driver.switchTo().window(ChildWindow);
-		Thread.sleep(5000);
-		Product1Add.click();
-		 System.out.println(coformationmessage.getText());
-		//driver.switchTo().window(Parentwindow);
-	}
-	public void AddProductSecond() throws InterruptedException
-	{
-		CategoryMen.click();
-		Subcategoryshirt.click();
-		Product2.click();
 		Set<String>windows=driver.getWindowHandles();
 		Iterator<String> it=windows.iterator();
 		String 	Parentwindow=it.next();
 		String	ChildWindow=it.next();
 		driver.switchTo().window(ChildWindow);
 		Thread.sleep(5000);
+		Product1Add.click();
+		 System.out.println(coformationmessage.getText());
+		 
+		 driver.switchTo().window(Parentwindow);
+		// System.out.println(driver.getCurrentUrl());
+	}
+	public void AddProductSecond() throws InterruptedException
+	{
+		CategoryMen.click();
+		Subcategoryshirt.click();
+		Thread.sleep(3000);
+		Product2.click();
+		//Thread.sleep(3000);
+		Set<String>windows=driver.getWindowHandles();
+		Iterator<String> it=windows.iterator();
+		
+		String	ChildWindow=it.next();
+		driver.switchTo().window(ChildWindow);
+		Size.click();
+		
+		Color.click();
+		Thread.sleep(5000);
 		Product2add.click();
+		System.out.println(coformationmessage.getText());
 	}
 
 }
