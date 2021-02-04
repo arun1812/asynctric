@@ -7,9 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import org.testng.annotations.Test;
-
 import com.asynctric.qa.base.TestBase;
-
 import com.asynctric.qa.pages.CategoriesMen;
 import com.asynctric.qa.pages.HomePage;
 import com.asynctric.qa.pages.LoginPage;
@@ -28,7 +26,6 @@ public class CategoriesMenTest extends TestBase {
 	public void setpage() throws IOException 
 	{
 		Initialization();
-		
 		loginpage=new LoginPage();
 		categorypage=new CategoriesMen();
 		homepage=loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));

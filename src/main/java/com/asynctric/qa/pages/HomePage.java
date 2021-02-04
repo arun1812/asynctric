@@ -1,19 +1,18 @@
 package com.asynctric.qa.pages;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Set;
-
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.asynctric.qa.base.TestBase;
+import com.asynctric.qa.util.CommonMethod;
 
 public class HomePage extends TestBase{
 
+	String child;
+	CommonMethod cm =new CommonMethod();
+	
 	//Initilization page factory
 	public HomePage() throws IOException {
 		super();
@@ -51,9 +50,8 @@ public class HomePage extends TestBase{
 		js.executeScript("window.scrollBy(0,1000)");
 		Thread.sleep(3000);
 		facebook.click();
-		Set<String> window=driver.getWindowHandles();
-		Iterator<String> it=window.iterator();
-		driver.switchTo().window(it.next());
+		child=cm.windowhandle();
+		driver.switchTo().window(child);
 		System.out.println(driver.getCurrentUrl());
 	}
 	

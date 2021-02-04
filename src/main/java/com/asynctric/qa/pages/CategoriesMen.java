@@ -1,18 +1,16 @@
 package com.asynctric.qa.pages;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Set;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.asynctric.qa.base.TestBase;
+import com.asynctric.qa.util.CommonMethod;
 
 public class CategoriesMen extends TestBase{
 
-	
+	String child;
+	CommonMethod cm =new CommonMethod();	
 
 	public CategoriesMen() throws IOException {
 		super();
@@ -47,32 +45,22 @@ WebElement coformationmessage;
 		Subcategoryshirt.click();
 		Thread.sleep(3000);
 		Product1.click();
-		Set<String>windows=driver.getWindowHandles();
-		Iterator<String> it=windows.iterator();
-		String 	Parentwindow=it.next();
-		String	ChildWindow=it.next();
-		driver.switchTo().window(ChildWindow);
+		child=cm.windowhandle();
+		driver.switchTo().window(child);
 		Thread.sleep(5000);
 		Product1Add.click();
 		 System.out.println(coformationmessage.getText());
-		 
-		 driver.switchTo().window(Parentwindow);
-		// System.out.println(driver.getCurrentUrl());
 	}
+	
 	public void AddProductSecond() throws InterruptedException
 	{
 		CategoryMen.click();
 		Subcategoryshirt.click();
 		Thread.sleep(3000);
 		Product2.click();
-		//Thread.sleep(3000);
-		Set<String>windows=driver.getWindowHandles();
-		Iterator<String> it=windows.iterator();
-		
-		String	ChildWindow=it.next();
-		driver.switchTo().window(ChildWindow);
+		child=cm.windowhandle();
+		driver.switchTo().window(child);
 		Size.click();
-		
 		Color.click();
 		Thread.sleep(5000);
 		Product2add.click();
