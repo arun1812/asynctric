@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecart">
+  <test name="Regration">
+  <groups>
+		<run>
+				<include name="smoke"/>
+		</run>  
+  </groups>
+  
+    <classes>
+      <class name="com.asynctric.qa.Testcase.HomePageTest"/>
+	 <class name="com.asynctric.qa.Testcase.LoginPageTest"/>
+	 <class name="com.asynctric.qa.Testcase.AddressPageTest"/>
+	 <class name="com.asynctric.qa.Testcase.CategoriesMenTest"/>
+	 <class name="com.asynctric.qa.Testcase.RegistrationPageTest"/>
+   	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

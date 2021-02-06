@@ -1,6 +1,8 @@
 package com.asynctric.qa.Testcase;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import org.testng.Assert;
@@ -33,17 +35,17 @@ public class LoginPageTest extends TestBase{
 	public void LoginPageTitleTest()
 	{
 		String title=loginpage.ValidateLoginPageTitle();
-		Assert.assertEquals(title, "ECart");
+		AssertJUnit.assertEquals(title, "ECart");
 		System.out.println("Title is " +title );
 	}
 	@Test(priority=2)
 	public void VlidateImageTest()
 	{
 		boolean flag= loginpage.ValidateImage();
-		Assert.assertTrue(flag);
+		AssertJUnit.assertTrue(flag);
 		System.out.println("Image Available "+flag);
 	}
-	@Test(priority=3)
+	@Test(groups={"smoke"})
 	public void LoginTest() throws IOException 
 	{
 	homepage=loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));

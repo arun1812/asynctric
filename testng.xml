@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecart">
+  <test name="Regration">
+  
+    <classes>
+      <class name="com.asynctric.qa.Testcase.HomePageTest"/>
+	 <class name="com.asynctric.qa.Testcase.LoginPageTest"/>
+   	</classes>
+  </test> <!-- Test -->
+  
+  <test name= "registration">
+  	<classes>
+  		<class name="com.asynctric.qa.Testcase.CategoriesMenTest"/>
+	 	<class name="com.asynctric.qa.Testcase.RegistrationPageTest"/>
+	</classes> 
+  </test>
+</suite> <!-- Suite -->

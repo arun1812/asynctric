@@ -1,0 +1,5 @@
+com\asynctric\qa\Testcase\LoginPageTest.class
+com\asynctric\qa\Testcase\HomePageTest.class
+com\asynctric\qa\Testcase\RegistrationPageTest.class
+com\asynctric\qa\Testcase\AddressPageTest.class
+com\asynctric\qa\Testcase\CategoriesMenTest.class

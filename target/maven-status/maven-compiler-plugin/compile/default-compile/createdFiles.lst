@@ -1,0 +1,11 @@
+com\asynctric\qa\base\TestBase.class
+com\asynctric\qa\pages\CategoriesMen.class
+com\asynctric\qa\pages\HomePage.class
+com\asynctric\qa\pages\RegistrationPage.class
+com\asynctric\qa\pages\CartPage.class
+com\asynctric\qa\util\ExcelReader.class
+com\asynctric\qa\util\TestUtil.class
+com\asynctric\qa\util\CommonMethod.class
+com\asynctric\qa\pages\LoginPage.class
+com\asynctric\qa\pages\AddressPage.class
+com\asynctric\qa\util\WebEventListener.class

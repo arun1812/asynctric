@@ -1,5 +1,6 @@
 package com.asynctric.qa.Testcase;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 
@@ -31,7 +32,7 @@ public class CategoriesMenTest extends TestBase {
 		homepage=loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	@Test(priority=1)
+	@Test(groups={"smoke"})
 	public void AddProductFirstTest() throws InterruptedException
 	{
 		categorypage.AddProductFirst();

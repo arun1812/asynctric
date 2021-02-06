@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.asynctric.qa.Testcase.CategoriesMenTest">
+        <methods>
+          <include name="setpage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.CategoriesMenTest -->
+      <class name="com.asynctric.qa.Testcase.HomePageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setuphomepage"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
+      <class name="com.asynctric.qa.Testcase.AddressPageTest">
+        <methods>
+          <include name="setpage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.AddressPageTest -->
+      <class name="com.asynctric.qa.Testcase.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TearDowm"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
+      <class name="com.asynctric.qa.Testcase.RegistrationPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="RegFormExcelTest"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

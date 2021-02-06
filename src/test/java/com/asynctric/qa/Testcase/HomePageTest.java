@@ -1,5 +1,7 @@
 package com.asynctric.qa.Testcase;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.testng.Assert;
@@ -34,7 +36,7 @@ public class HomePageTest extends TestBase {
 	public void ValidatehomepageimageTest()
 	{
 		boolean flag= homepage.Validatehomepageimage();
-		Assert.assertTrue(flag);
+		AssertJUnit.assertTrue(flag);
 		System.out.println("Home Page LoGO Available "+flag);
 	}
 	
@@ -45,7 +47,7 @@ public class HomePageTest extends TestBase {
 		homepage.MoveToAddressPage();
 		System.out.println("Address Page Open");
 	}
-	@Test(priority=3)
+	@Test(groups={"smoke"})
 	public void scrolldownTest() throws InterruptedException
 	{
 		homepage.scrolldown();

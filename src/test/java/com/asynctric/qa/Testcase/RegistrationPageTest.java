@@ -1,5 +1,7 @@
 package com.asynctric.qa.Testcase;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -29,14 +31,14 @@ public class RegistrationPageTest extends TestBase{
 	public void ValidateRegPageURLTest()
 	{
 		String currentURL= regpage.ValidateRegPageURL();
-		Assert.assertEquals(currentURL, "https://ecomm-fed59.web.app/register");
+		AssertJUnit.assertEquals(currentURL, "https://ecomm-fed59.web.app/register");
 		System.out.println("Current URL is :" + currentURL);
 	}
 	@Test(priority=2)
 	public void ValidateRegPageTextTest()
 	{
 		String text=regpage.ValidateRegPageText();
-		Assert.assertEquals(text, "Signup with Asyncentric");
+		AssertJUnit.assertEquals(text, "Signup with Asyncentric");
 		System.out.println("Current Page text : " + text );
 	}
 	@Test(priority=3)
