@@ -5,8 +5,8 @@
     <classes>
       <class name="com.asynctric.qa.Testcase.HomePageTest">
         <methods>
+          <include name="MoveToAddressPageTest"/>
           <include name="TearDown"/>
-          <include name="scrolldownTest"/>
           <include name="setuphomepage"/>
         </methods>
       </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->

@@ -13,11 +13,14 @@ import org.testng.annotations.Test;
 import com.asynctric.qa.base.TestBase;
 import com.asynctric.qa.pages.HomePage;
 import com.asynctric.qa.pages.LoginPage;
+import com.asynctric.qa.util.CommonMethod;
 
 public class HomePageTest extends TestBase {
 
 	LoginPage loginpage;
 	HomePage homepage;
+	
+	CommonMethod cm =new CommonMethod();
 	
 	public HomePageTest() throws IOException {
 		super();
@@ -33,10 +36,11 @@ public class HomePageTest extends TestBase {
 		homepage=loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	@Test(priority=1)
-	public void ValidatehomepageimageTest()
+	public void ValidatehomepageimageTest() throws IOException
 	{
 		boolean flag= homepage.Validatehomepageimage();
 		AssertJUnit.assertTrue(flag);
+		
 		System.out.println("Home Page LoGO Available "+flag);
 	}
 	
@@ -48,7 +52,7 @@ public class HomePageTest extends TestBase {
 		System.out.println("Address Page Open");
 	}
 	@Test(groups={"smoke"})
-	public void scrolldownTest() throws InterruptedException
+	public void scrolldownTest() throws InterruptedException, IOException
 	{
 		homepage.scrolldown();
 	}

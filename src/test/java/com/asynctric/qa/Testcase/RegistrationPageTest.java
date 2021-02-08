@@ -42,7 +42,7 @@ public class RegistrationPageTest extends TestBase{
 		System.out.println("Current Page text : " + text );
 	}
 	@Test(priority=3)
-	public void RegFormExcelTest() throws InterruptedException
+	public void RegFormExcelTest() throws InterruptedException, IOException
 	{
 		regpage.RegFormExcel();
 		

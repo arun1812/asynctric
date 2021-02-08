@@ -11,6 +11,9 @@ import com.asynctric.qa.util.CommonMethod;
 public class HomePage extends TestBase{
 
 	String child;
+	String location="D:\\Projects\\screenshots\\Home\\";
+	String logo;
+	String Facebookpage;
 	CommonMethod cm =new CommonMethod();
 	
 	//Initilization page factory
@@ -36,6 +39,7 @@ public class HomePage extends TestBase{
 	public boolean Validatehomepageimage()
 	{
 		return HomepageLogo.isDisplayed();
+		
 	}
 	public AddressPage MoveToAddressPage() throws IOException
 	{
@@ -43,8 +47,9 @@ public class HomePage extends TestBase{
 		account.click();
 		return new AddressPage();
 		
+		
 	}
-	public void scrolldown() throws InterruptedException
+	public void scrolldown() throws InterruptedException, IOException
 	{
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,1000)");
@@ -53,6 +58,7 @@ public class HomePage extends TestBase{
 		child=cm.windowhandle();
 		driver.switchTo().window(child);
 		System.out.println(driver.getCurrentUrl());
+		cm.Screenshot(location,Facebookpage);
 	}
 	
 }

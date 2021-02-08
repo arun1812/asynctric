@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Ecart]">
-  <test name="Regration(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.asynctric.qa.Testcase.HomePageTest">
         <methods>
+          <include name="MoveToAddressPageTest"/>
           <include name="TearDown"/>
-          <include name="scrolldownTest"/>
           <include name="setuphomepage"/>
         </methods>
       </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
     </classes>
-  </test> <!-- Regration(failed) -->
-</suite> <!-- Failed suite [Ecart] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
