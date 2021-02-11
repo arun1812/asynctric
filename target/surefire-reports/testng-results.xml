@@ -2,153 +2,153 @@
 <testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecart" duration-ms="305262" started-at="2021-02-08T12:27:40Z" finished-at="2021-02-08T12:32:46Z">
+  <suite name="Ecart" duration-ms="164908" started-at="2021-02-11T09:05:50Z" finished-at="2021-02-11T09:08:35Z">
     <groups>
       <group name="smoke">
-        <method signature="HomePageTest.scrolldownTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="scrolldownTest" class="com.asynctric.qa.Testcase.HomePageTest"/>
-        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="LoginTest" class="com.asynctric.qa.Testcase.LoginPageTest"/>
-        <method signature="CategoriesMenTest.AddProductFirstTest()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="AddProductFirstTest" class="com.asynctric.qa.Testcase.CategoriesMenTest"/>
+        <method signature="HomePageTest.scrolldownTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="scrolldownTest" class="com.asynctric.qa.Testcase.HomePageTest"/>
+        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="LoginTest" class="com.asynctric.qa.Testcase.LoginPageTest"/>
+        <method signature="CategoriesMenTest.AddProductFirstTest()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="AddProductFirstTest" class="com.asynctric.qa.Testcase.CategoriesMenTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Regration" duration-ms="148741" started-at="2021-02-08T12:27:40Z" finished-at="2021-02-08T12:30:09Z">
+    <test name="Regration" duration-ms="56379" started-at="2021-02-11T09:05:50Z" finished-at="2021-02-11T09:06:47Z">
       <class name="com.asynctric.qa.Testcase.HomePageTest">
-        <test-method status="PASS" signature="setuphomepage()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="setuphomepage" is-config="true" duration-ms="25773" started-at="2021-02-08T17:57:40Z" finished-at="2021-02-08T17:58:06Z">
+        <test-method status="PASS" signature="setuphomepage()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="setuphomepage" is-config="true" duration-ms="6607" started-at="2021-02-11T14:35:50Z" finished-at="2021-02-11T14:35:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuphomepage -->
-        <test-method status="PASS" signature="scrolldownTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="scrolldownTest" duration-ms="8511" started-at="2021-02-08T17:58:06Z" finished-at="2021-02-08T17:58:15Z">
+        <test-method status="PASS" signature="scrolldownTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="scrolldownTest" duration-ms="8534" started-at="2021-02-11T14:35:57Z" finished-at="2021-02-11T14:36:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrolldownTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="TearDown" is-config="true" duration-ms="963" started-at="2021-02-08T17:58:15Z" finished-at="2021-02-08T17:58:16Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="TearDown" is-config="true" duration-ms="922" started-at="2021-02-11T14:36:05Z" finished-at="2021-02-11T14:36:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setuphomepage()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="setuphomepage" is-config="true" duration-ms="27635" started-at="2021-02-08T17:58:16Z" finished-at="2021-02-08T17:58:43Z">
+        <test-method status="PASS" signature="setuphomepage()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="setuphomepage" is-config="true" duration-ms="5046" started-at="2021-02-11T14:36:06Z" finished-at="2021-02-11T14:36:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuphomepage -->
-        <test-method status="PASS" signature="ValidatehomepageimageTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="ValidatehomepageimageTest" duration-ms="256" started-at="2021-02-08T17:58:43Z" finished-at="2021-02-08T17:58:43Z">
+        <test-method status="PASS" signature="ValidatehomepageimageTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="ValidatehomepageimageTest" duration-ms="286" started-at="2021-02-11T14:36:11Z" finished-at="2021-02-11T14:36:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatehomepageimageTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="TearDown" is-config="true" duration-ms="1545" started-at="2021-02-08T17:58:43Z" finished-at="2021-02-08T17:58:45Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="TearDown" is-config="true" duration-ms="648" started-at="2021-02-11T14:36:12Z" finished-at="2021-02-11T14:36:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setuphomepage()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="setuphomepage" is-config="true" duration-ms="11474" started-at="2021-02-08T17:58:45Z" finished-at="2021-02-08T17:58:56Z">
+        <test-method status="PASS" signature="setuphomepage()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="setuphomepage" is-config="true" duration-ms="7895" started-at="2021-02-11T14:36:12Z" finished-at="2021-02-11T14:36:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuphomepage -->
-        <test-method status="PASS" signature="MoveToAddressPageTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="MoveToAddressPageTest" duration-ms="2671" started-at="2021-02-08T17:58:56Z" finished-at="2021-02-08T17:58:59Z">
+        <test-method status="PASS" signature="MoveToAddressPageTest()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="MoveToAddressPageTest" duration-ms="3107" started-at="2021-02-11T14:36:20Z" finished-at="2021-02-11T14:36:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MoveToAddressPageTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@3c09711b]" name="TearDown" is-config="true" duration-ms="920" started-at="2021-02-08T17:58:59Z" finished-at="2021-02-08T17:59:00Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.HomePageTest@525f1e4e]" name="TearDown" is-config="true" duration-ms="1626" started-at="2021-02-11T14:36:23Z" finished-at="2021-02-11T14:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
       <class name="com.asynctric.qa.Testcase.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="setup" is-config="true" duration-ms="32608" started-at="2021-02-08T17:59:00Z" finished-at="2021-02-08T17:59:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="setup" is-config="true" duration-ms="8359" started-at="2021-02-11T14:36:25Z" finished-at="2021-02-11T14:36:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="LoginTest" duration-ms="776" started-at="2021-02-08T17:59:33Z" finished-at="2021-02-08T17:59:33Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="LoginTest" duration-ms="885" started-at="2021-02-11T14:36:33Z" finished-at="2021-02-11T14:36:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="TearDowm" is-config="true" duration-ms="810" started-at="2021-02-08T17:59:33Z" finished-at="2021-02-08T17:59:34Z">
+        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="TearDowm" is-config="true" duration-ms="728" started-at="2021-02-11T14:36:34Z" finished-at="2021-02-11T14:36:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDowm -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="setup" is-config="true" duration-ms="19117" started-at="2021-02-08T17:59:34Z" finished-at="2021-02-08T17:59:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="setup" is-config="true" duration-ms="5602" started-at="2021-02-11T14:36:35Z" finished-at="2021-02-11T14:36:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="LoginPageTitleTest" duration-ms="173" started-at="2021-02-08T17:59:53Z" finished-at="2021-02-08T17:59:54Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="LoginPageTitleTest" duration-ms="16" started-at="2021-02-11T14:36:40Z" finished-at="2021-02-11T14:36:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="TearDowm" is-config="true" duration-ms="805" started-at="2021-02-08T17:59:54Z" finished-at="2021-02-08T17:59:54Z">
+        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="TearDowm" is-config="true" duration-ms="812" started-at="2021-02-11T14:36:40Z" finished-at="2021-02-11T14:36:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDowm -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="setup" is-config="true" duration-ms="13215" started-at="2021-02-08T17:59:54Z" finished-at="2021-02-08T18:00:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="setup" is-config="true" duration-ms="4525" started-at="2021-02-11T14:36:41Z" finished-at="2021-02-11T14:36:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VlidateImageTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="VlidateImageTest" duration-ms="217" started-at="2021-02-08T18:00:08Z" finished-at="2021-02-08T18:00:08Z">
+        <test-method status="PASS" signature="VlidateImageTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="VlidateImageTest" duration-ms="109" started-at="2021-02-11T14:36:46Z" finished-at="2021-02-11T14:36:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VlidateImageTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@66d2e7d9]" name="TearDowm" is-config="true" duration-ms="1245" started-at="2021-02-08T18:00:08Z" finished-at="2021-02-08T18:00:09Z">
+        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@8b96fde]" name="TearDowm" is-config="true" duration-ms="641" started-at="2021-02-11T14:36:46Z" finished-at="2021-02-11T14:36:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDowm -->
       </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
     </test> <!-- Regration -->
-    <test name="registration" duration-ms="156498" started-at="2021-02-08T12:30:09Z" finished-at="2021-02-08T12:32:46Z">
+    <test name="registration" duration-ms="108014" started-at="2021-02-11T09:06:47Z" finished-at="2021-02-11T09:08:35Z">
       <class name="com.asynctric.qa.Testcase.CategoriesMenTest">
-        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="setpage" is-config="true" duration-ms="16070" started-at="2021-02-08T18:00:09Z" finished-at="2021-02-08T18:00:25Z">
+        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="setpage" is-config="true" duration-ms="6020" started-at="2021-02-11T14:36:47Z" finished-at="2021-02-11T14:36:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setpage -->
-        <test-method status="PASS" signature="AddProductFirstTest()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="AddProductFirstTest" duration-ms="13354" started-at="2021-02-08T18:00:25Z" finished-at="2021-02-08T18:00:39Z">
+        <test-method status="PASS" signature="AddProductFirstTest()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="AddProductFirstTest" duration-ms="12473" started-at="2021-02-11T14:36:53Z" finished-at="2021-02-11T14:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductFirstTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="TearDown" is-config="true" duration-ms="879" started-at="2021-02-08T18:00:39Z" finished-at="2021-02-08T18:00:39Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="TearDown" is-config="true" duration-ms="863" started-at="2021-02-11T14:37:06Z" finished-at="2021-02-11T14:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="setpage" is-config="true" duration-ms="15570" started-at="2021-02-08T18:00:39Z" finished-at="2021-02-08T18:00:55Z">
+        <test-method status="PASS" signature="setpage()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="setpage" is-config="true" duration-ms="6578" started-at="2021-02-11T14:37:06Z" finished-at="2021-02-11T14:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setpage -->
-        <test-method status="PASS" signature="AddProductSecondTest()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="AddProductSecondTest" duration-ms="14801" started-at="2021-02-08T18:00:55Z" finished-at="2021-02-08T18:01:10Z">
+        <test-method status="PASS" signature="AddProductSecondTest()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="AddProductSecondTest" duration-ms="14582" started-at="2021-02-11T14:37:13Z" finished-at="2021-02-11T14:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductSecondTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@6d00a15d]" name="TearDown" is-config="true" duration-ms="1001" started-at="2021-02-08T18:01:10Z" finished-at="2021-02-08T18:01:11Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.asynctric.qa.Testcase.CategoriesMenTest@5b0abc94]" name="TearDown" is-config="true" duration-ms="1287" started-at="2021-02-11T14:37:28Z" finished-at="2021-02-11T14:37:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.asynctric.qa.Testcase.CategoriesMenTest -->
       <class name="com.asynctric.qa.Testcase.RegistrationPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="Setup" is-config="true" duration-ms="23573" started-at="2021-02-08T18:01:11Z" finished-at="2021-02-08T18:01:34Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="Setup" is-config="true" duration-ms="4644" started-at="2021-02-11T14:37:29Z" finished-at="2021-02-11T14:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="ValidateRegPageURLTest()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="ValidateRegPageURLTest" duration-ms="232" started-at="2021-02-08T18:01:34Z" finished-at="2021-02-08T18:01:35Z">
+        <test-method status="PASS" signature="ValidateRegPageURLTest()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="ValidateRegPageURLTest" duration-ms="183" started-at="2021-02-11T14:37:34Z" finished-at="2021-02-11T14:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRegPageURLTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="Teardown" is-config="true" duration-ms="772" started-at="2021-02-08T18:01:35Z" finished-at="2021-02-08T18:01:35Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="Teardown" is-config="true" duration-ms="748" started-at="2021-02-11T14:37:34Z" finished-at="2021-02-11T14:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="Setup" is-config="true" duration-ms="13801" started-at="2021-02-08T18:01:35Z" finished-at="2021-02-08T18:01:49Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="Setup" is-config="true" duration-ms="14339" started-at="2021-02-11T14:37:34Z" finished-at="2021-02-11T14:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="ValidateRegPageTextTest()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="ValidateRegPageTextTest" duration-ms="303" started-at="2021-02-08T18:01:49Z" finished-at="2021-02-08T18:01:49Z">
+        <test-method status="PASS" signature="ValidateRegPageTextTest()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="ValidateRegPageTextTest" duration-ms="225" started-at="2021-02-11T14:37:49Z" finished-at="2021-02-11T14:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRegPageTextTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="Teardown" is-config="true" duration-ms="797" started-at="2021-02-08T18:01:49Z" finished-at="2021-02-08T18:01:50Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="Teardown" is-config="true" duration-ms="684" started-at="2021-02-11T14:37:49Z" finished-at="2021-02-11T14:37:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="Setup" is-config="true" duration-ms="14188" started-at="2021-02-08T18:01:50Z" finished-at="2021-02-08T18:02:04Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="Setup" is-config="true" duration-ms="5977" started-at="2021-02-11T14:37:50Z" finished-at="2021-02-11T14:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="RegFormExcelTest()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="RegFormExcelTest" duration-ms="40142" started-at="2021-02-08T18:02:04Z" finished-at="2021-02-08T18:02:45Z">
+        <test-method status="PASS" signature="RegFormExcelTest()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="RegFormExcelTest" duration-ms="38408" started-at="2021-02-11T14:37:56Z" finished-at="2021-02-11T14:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegFormExcelTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@36d4b5c]" name="Teardown" is-config="true" duration-ms="1012" started-at="2021-02-08T18:02:45Z" finished-at="2021-02-08T18:02:46Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.asynctric.qa.Testcase.RegistrationPageTest@7d68ef40]" name="Teardown" is-config="true" duration-ms="1002" started-at="2021-02-11T14:38:34Z" finished-at="2021-02-11T14:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

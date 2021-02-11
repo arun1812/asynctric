@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Ecart]">
+  <listeners>
+    <listener class-name="com.asynctric.qa.util.Listener"/>
+  </listeners>
   <test name="Regration(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.asynctric.qa.Testcase.CategoriesMenTest">
-        <methods>
-          <include name="AddProductFirstTest"/>
-        </methods>
-      </class> <!-- com.asynctric.qa.Testcase.CategoriesMenTest -->
-      <class name="com.asynctric.qa.Testcase.LoginPageTest">
-        <methods>
-          <include name="LoginTest"/>
-        </methods>
-      </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
       <class name="com.asynctric.qa.Testcase.HomePageTest">
         <methods>
+          <include name="MoveToAddressPageTest"/>
+          <include name="TearDown"/>
           <include name="scrolldownTest"/>
+          <include name="setuphomepage"/>
         </methods>
       </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
     </classes>
