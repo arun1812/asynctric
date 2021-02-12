@@ -8,6 +8,7 @@ import java.util.Set;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import com.asynctric.qa.base.TestBase;
 import com.aventstack.extentreports.ExtentReports;
@@ -29,10 +30,20 @@ public class CommonMethod extends TestBase{
 		String	ChildWindow=it.next();
 		return ChildWindow;
 	}
-	public void Screenshot(String Location, String Filename) throws IOException
+	public void Screenshot(String Filename) throws IOException
 	{
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String Location=System.getProperty("user.dir")+"\\reports\\screenshots\\";
 		FileUtils.copyFile(src, new File(Location + Filename+ ".png"));
+	}
+	
+	public String ScreenshotForFailureTest(String testCaseName) throws IOException
+	{
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		File source=ts.getScreenshotAs(OutputType.FILE);
+		String destinationfilepath=System.getProperty("user.dir")+"\\reports\\FailureTestScreenShot\\"+testCaseName+".png";
+		FileUtils.copyFile(source, new File(destinationfilepath));
+		return destinationfilepath;
 	}
 	
 	public static ExtentReports ExtentReport()

@@ -7,15 +7,10 @@
   <test name="Regration">
 
     <classes>
-      <class name="com.asynctric.qa.Testcase.HomePageTest"/>
-	 <class name="com.asynctric.qa.Testcase.LoginPageTest"/>
+      	<class name="com.asynctric.qa.Testcase.HomePageTest"/>
+		
    	</classes>
   </test> <!-- Test -->
   
-  <test name= "registration">
-  	<classes>
-  		<class name="com.asynctric.qa.Testcase.CategoriesMenTest"/>
-	 	<class name="com.asynctric.qa.Testcase.RegistrationPageTest"/>
-	</classes> 
-  </test>
+ 
 </suite> <!-- Suite -->

@@ -13,7 +13,7 @@ import com.asynctric.qa.util.ExcelReader;
 public class RegistrationPage extends TestBase {
 
 	CommonMethod cm=new CommonMethod();
-	String location="D:\\Projects\\screenshots\\Reg\\";
+//	String location="D:\\Projects\\screenshots\\Reg\\";
 	public String conformationmsg;
 	public RegistrationPage() throws IOException {
 		super();
@@ -84,7 +84,7 @@ WebElement Login;
 		
 		System.out.println(coformationmessage.getText());
 		conformationmsg=coformationmessage.getText();
-		cm.Screenshot(location,conformationmsg);
+		cm.Screenshot(conformationmsg);
 		/*File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(location + conformationmsg + ".png"));*/
 		if(conformationmsg.equals("Email already exists!")||conformationmsg.equals("Phone already exists!") )

@@ -11,7 +11,7 @@ import com.asynctric.qa.util.CommonMethod;
 public class HomePage extends TestBase{
 
 	String child;
-	String location="D:\\Projects\\screenshots\\Home\\";
+//	String location="D:\\Projects\\screenshots\\Home\\";
 	String logo;
 	String Facebookpage;
 	CommonMethod cm =new CommonMethod();
@@ -57,8 +57,9 @@ public class HomePage extends TestBase{
 		facebook.click();
 		child=cm.windowhandle();
 		driver.switchTo().window(child);
+		Facebookpage=driver.getTitle();
 		System.out.println(driver.getCurrentUrl());
-		cm.Screenshot(location,Facebookpage);
+		cm.Screenshot(Facebookpage);
 	}
 	
 }
