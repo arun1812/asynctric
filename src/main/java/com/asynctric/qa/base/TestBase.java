@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,7 +17,8 @@ import com.asynctric.qa.util.TestUtil;
 import com.asynctric.qa.util.WebEventListener;
 
 public class TestBase {
-
+	
+	//public static Logger log=LogManager.getLogger(TestBase.class.getName());
 	public static WebDriver driver;
 	public static Properties prop;
 	public  static EventFiringWebDriver edriver;
@@ -48,12 +51,14 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver","D:\\Selenium Setup\\chrome88\\chromedriver.exe");
 			//System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver=new ChromeDriver();
+		//	log.info("Chrome Driver Initialized");
 		}
 		
 		else if(browsername.equals("FF"))
 		{
 			System.setProperty("webdriver.gecko.driver","D:\\Selenium Setup\\Mozila\\geckodriver.exe" );
 			  driver=new FirefoxDriver();
+			//  log.info(" FireFox Driver Initialized");
 		}
 		
 		System.out.println("Driver "+ driver);

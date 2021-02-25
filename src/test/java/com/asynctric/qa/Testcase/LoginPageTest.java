@@ -5,6 +5,9 @@ import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
@@ -15,7 +18,7 @@ import com.asynctric.qa.pages.HomePage;
 import com.asynctric.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase{
-
+public static Logger log=LogManager.getLogger(TestBase.class.getName());
 		LoginPage loginpage;
 		HomePage homepage;
 		
@@ -29,6 +32,7 @@ public class LoginPageTest extends TestBase{
 	{
 		Initialization();
 		loginpage= new LoginPage();
+	log.info("All setup successfuly");
 	}
 	
 	@Test(priority=1)
@@ -37,6 +41,7 @@ public class LoginPageTest extends TestBase{
 		String title=loginpage.ValidateLoginPageTitle();
 		AssertJUnit.assertEquals(title, "ECart");
 		System.out.println("Title is " +title );
+	log.info("Title is " +title);
 	}
 	@Test(priority=2)
 	public void VlidateImageTest()
@@ -44,12 +49,14 @@ public class LoginPageTest extends TestBase{
 		boolean flag= loginpage.ValidateImage();
 		AssertJUnit.assertTrue(flag);
 		System.out.println("Image Available "+flag);
+	log.info("Image Available "+flag);
 	}
 	@Test(groups={"smoke"})
 	public void LoginTest() throws IOException 
 	{
 	homepage=loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 	System.out.println("Home page URL is " + driver.getCurrentUrl());
+	log.info("Login Succesfull and  Home page URL is " + driver.getCurrentUrl());
 	}
 	@AfterMethod
 	public void TearDowm() 

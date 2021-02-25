@@ -21,6 +21,7 @@ public class Listener extends CommonMethod implements ITestListener {
 	ExtentReports extent= CommonMethod.ExtentReport();
 	ExtentTest test;
 	ThreadLocal<ExtentTest> extenttest= new ThreadLocal<ExtentTest>();
+	
 	public void onTestStart(ITestResult result) {
 		
 		 test= extent.createTest(result.getMethod().getMethodName());

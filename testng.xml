@@ -7,7 +7,7 @@
   <test name="Regration">
 
     <classes>
-      	<class name="com.asynctric.qa.Testcase.HomePageTest"/>
+      	<class name="com.asynctric.qa.Testcase.LoginPageTest"/>
 		
    	</classes>
   </test> <!-- Test -->

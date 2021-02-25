@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Ecart">
-              <span class="suite-name border-failed">Ecart</span>
+              <span class="suite-name border-passed">Ecart</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Ecart" class="hide-methods failed suite-Ecart"> (hide)</a> <!-- hide-methods failed suite-Ecart -->
-                      <a href="#" panel-name="suite-Ecart" class="show-methods failed suite-Ecart"> (show)</a> <!-- show-methods failed suite-Ecart -->
-                    </span>
-                    <div class="method-list-content failed suite-Ecart">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Ecart" title="com.asynctric.qa.Testcase.HomePageTest" hash-for-method="scrolldownTest">scrolldownTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Ecart -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,12 +102,17 @@
                     <div class="method-list-content passed suite-Ecart">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Ecart" title="com.asynctric.qa.Testcase.HomePageTest" hash-for-method="MoveToAddressPageTest">MoveToAddressPageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Ecart" title="com.asynctric.qa.Testcase.LoginPageTest" hash-for-method="LoginPageTitleTest">LoginPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Ecart" title="com.asynctric.qa.Testcase.HomePageTest" hash-for-method="ValidatehomepageimageTest">ValidatehomepageimageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Ecart" title="com.asynctric.qa.Testcase.LoginPageTest" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ecart" title="com.asynctric.qa.Testcase.LoginPageTest" hash-for-method="VlidateImageTest">VlidateImageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Ecart -->
@@ -136,50 +127,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Ecart" class="panel Ecart">
-          <div class="suite-Ecart-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.asynctric.qa.Testcase.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="scrolldownTest">
-                  </a> <!-- scrolldownTest -->
-                  <span class="method-name">scrolldownTest</span>
-                  <div class="stack-trace">java.io.IOException: The filename, directory name, or volume label syntax is incorrect
-	at java.io.WinNTFileSystem.canonicalize0(Native Method)
-	at java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:428)
-	at java.io.File.getCanonicalPath(File.java:618)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1076)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040)
-	at com.asynctric.qa.util.CommonMethod.Screenshot(CommonMethod.java:37)
-	at com.asynctric.qa.pages.HomePage.scrolldown(HomePage.java:62)
-	at com.asynctric.qa.Testcase.HomePageTest.scrolldownTest(HomePageTest.java:57)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Ecart-class-failed -->
           <div class="suite-Ecart-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.asynctric.qa.Testcase.HomePageTest</span>
+              <span class="class-name">com.asynctric.qa.Testcase.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="MoveToAddressPageTest">
-                  </a> <!-- MoveToAddressPageTest -->
-                  <span class="method-name">MoveToAddressPageTest</span>
+                  <a name="LoginPageTitleTest">
+                  </a> <!-- LoginPageTitleTest -->
+                  <span class="method-name">LoginPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidatehomepageimageTest">
-                  </a> <!-- ValidatehomepageimageTest -->
-                  <span class="method-name">ValidatehomepageimageTest</span>
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VlidateImageTest">
+                  </a> <!-- VlidateImageTest -->
+                  <span class="method-name">VlidateImageTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +171,7 @@
   &lt;/listeners&gt;
   &lt;test name=&quot;Regration&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.asynctric.qa.Testcase.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.asynctric.qa.Testcase.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regration --&gt;
 &lt;/suite&gt; &lt;!-- Ecart --&gt;
@@ -227,7 +199,7 @@
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">scrolldownTest</span>
+                <span class="method-in-group-name">LoginTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -249,22 +221,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'scrolldownTest')
-data.setCell(0, 2, 'com.asynctric.qa.Testcase.HomePageTest')
-data.setCell(0, 3, 8956);
+data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 2, 'com.asynctric.qa.Testcase.LoginPageTest')
+data.setCell(0, 3, 755);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'MoveToAddressPageTest')
-data.setCell(1, 2, 'com.asynctric.qa.Testcase.HomePageTest')
-data.setCell(1, 3, 2540);
+data.setCell(1, 1, 'VlidateImageTest')
+data.setCell(1, 2, 'com.asynctric.qa.Testcase.LoginPageTest')
+data.setCell(1, 3, 250);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidatehomepageimageTest')
-data.setCell(2, 2, 'com.asynctric.qa.Testcase.HomePageTest')
-data.setCell(2, 3, 196);
+data.setCell(2, 1, 'LoginPageTitleTest')
+data.setCell(2, 2, 'com.asynctric.qa.Testcase.LoginPageTest')
+data.setCell(2, 3, 22);
 window.suiteTableData['Ecart']= { tableData: data, tableDiv: 'times-div-Ecart'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Ecart">
               </div> <!-- times-div-Ecart -->
             </div> <!-- times-div -->
@@ -290,44 +262,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.asynctric.qa.Testcase.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.asynctric.qa.Testcase.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setuphomepage</span>
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">scrolldownTest</span>
-                <span class="method-start">10678 ms</span>
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">9173 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">20851 ms</span>
+                <span class="method-name">TearDowm</span>
+                <span class="method-start">9942 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setuphomepage</span>
-                <span class="method-start">21659 ms</span>
+                <span class="method-name">setup</span>
+                <span class="method-start">10757 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ValidatehomepageimageTest</span>
-                <span class="method-start">28110 ms</span>
+                <span class="method-name">LoginPageTitleTest</span>
+                <span class="method-start">18699 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">28308 ms</span>
+                <span class="method-name">TearDowm</span>
+                <span class="method-start">18721 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setuphomepage</span>
-                <span class="method-start">29051 ms</span>
+                <span class="method-name">setup</span>
+                <span class="method-start">20050 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">MoveToAddressPageTest</span>
-                <span class="method-start">35240 ms</span>
+                <span class="method-name">VlidateImageTest</span>
+                <span class="method-start">27765 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">37783 ms</span>
+                <span class="method-name">TearDowm</span>
+                <span class="method-start">28017 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

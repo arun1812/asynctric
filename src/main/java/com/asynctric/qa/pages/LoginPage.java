@@ -2,6 +2,8 @@ package com.asynctric.qa.pages;
 
 import java.io.IOException;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -10,6 +12,7 @@ import com.asynctric.qa.base.TestBase;
 
 public class LoginPage extends TestBase{
 
+//	public static Logger log=LogManager.getLogger(TestBase.class.getName());
 //Initilization page factory	
 	public LoginPage() throws IOException {
 		super();
@@ -34,6 +37,7 @@ public class LoginPage extends TestBase{
 	public String ValidateLoginPageTitle()
 	{
 		return driver.getTitle();
+		
 	}
 	
 	public boolean ValidateImage()
@@ -47,5 +51,6 @@ public class LoginPage extends TestBase{
 		password.sendKeys(pwd);
 		submitbtn.click();
 		return new HomePage();
+		
 	}
 }
