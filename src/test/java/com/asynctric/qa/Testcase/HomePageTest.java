@@ -51,7 +51,7 @@ public class HomePageTest extends TestBase {
 		homepage.MoveToAddressPage();
 		System.out.println("Address Page Open");
 	}
-	@Test(groups={"smoke"})
+	@Test(groups="smoke")
 	public void scrolldownTest() throws InterruptedException, IOException
 	{
 		homepage.scrolldown();

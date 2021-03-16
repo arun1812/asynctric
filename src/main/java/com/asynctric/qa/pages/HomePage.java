@@ -13,7 +13,7 @@ public class HomePage extends TestBase{
 	String child;
 //	String location="D:\\Projects\\screenshots\\Home\\";
 	String logo;
-	String Facebookpage="facebook";
+	String Facebookpage;
 	CommonMethod cm =new CommonMethod();
 	
 	//Initilization page factory
@@ -57,8 +57,8 @@ public class HomePage extends TestBase{
 		facebook.click();
 		child=cm.windowhandle();
 		driver.switchTo().window(child);
-		//Facebookpage=driver.getTitle();
-		//System.out.println(driver.getCurrentUrl());
+		Facebookpage=driver.getTitle();
+		System.out.println(driver.getCurrentUrl());
 		cm.Screenshot(Facebookpage);
 	}
 	

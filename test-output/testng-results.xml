@@ -2,51 +2,51 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecart" duration-ms="28790" started-at="2021-02-25T12:17:17Z" finished-at="2021-02-25T12:17:46Z">
+  <suite name="Default suite" duration-ms="45134" started-at="2021-03-10T13:05:48Z" finished-at="2021-03-10T13:06:33Z">
     <groups>
       <group name="smoke">
-        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="LoginTest" class="com.asynctric.qa.Testcase.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="LoginTest" class="com.asynctric.qa.Testcase.LoginPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Regration" duration-ms="28790" started-at="2021-02-25T12:17:17Z" finished-at="2021-02-25T12:17:46Z">
+    <test name="Default test" duration-ms="45134" started-at="2021-03-10T13:05:48Z" finished-at="2021-03-10T13:06:33Z">
       <class name="com.asynctric.qa.Testcase.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="setup" is-config="true" duration-ms="9173" started-at="2021-02-25T17:47:17Z" finished-at="2021-02-25T17:47:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="setup" is-config="true" duration-ms="10575" started-at="2021-03-10T18:35:48Z" finished-at="2021-03-10T18:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="LoginTest" duration-ms="755" started-at="2021-02-25T17:47:26Z" finished-at="2021-02-25T17:47:27Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="LoginTest" duration-ms="1601" started-at="2021-03-10T18:35:59Z" finished-at="2021-03-10T18:36:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="TearDowm" is-config="true" duration-ms="810" started-at="2021-02-25T17:47:27Z" finished-at="2021-02-25T17:47:28Z">
+        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="TearDowm" is-config="true" duration-ms="1717" started-at="2021-03-10T18:36:00Z" finished-at="2021-03-10T18:36:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDowm -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="setup" is-config="true" duration-ms="7942" started-at="2021-02-25T17:47:28Z" finished-at="2021-02-25T17:47:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="setup" is-config="true" duration-ms="12970" started-at="2021-03-10T18:36:02Z" finished-at="2021-03-10T18:36:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="LoginPageTitleTest" duration-ms="22" started-at="2021-02-25T17:47:36Z" finished-at="2021-02-25T17:47:36Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="LoginPageTitleTest" duration-ms="15" started-at="2021-03-10T18:36:15Z" finished-at="2021-03-10T18:36:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="TearDowm" is-config="true" duration-ms="1328" started-at="2021-02-25T17:47:36Z" finished-at="2021-02-25T17:47:37Z">
+        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="TearDowm" is-config="true" duration-ms="1477" started-at="2021-03-10T18:36:15Z" finished-at="2021-03-10T18:36:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDowm -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="setup" is-config="true" duration-ms="7715" started-at="2021-02-25T17:47:37Z" finished-at="2021-02-25T17:47:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="setup" is-config="true" duration-ms="15744" started-at="2021-03-10T18:36:17Z" finished-at="2021-03-10T18:36:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VlidateImageTest()[pri:2, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="VlidateImageTest" duration-ms="250" started-at="2021-02-25T17:47:45Z" finished-at="2021-02-25T17:47:45Z">
+        <test-method status="PASS" signature="VlidateImageTest()[pri:2, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="VlidateImageTest" duration-ms="189" started-at="2021-03-10T18:36:32Z" finished-at="2021-03-10T18:36:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VlidateImageTest -->
-        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@7219ec67]" name="TearDowm" is-config="true" duration-ms="748" started-at="2021-02-25T17:47:45Z" finished-at="2021-02-25T17:47:46Z">
+        <test-method status="PASS" signature="TearDowm()[pri:0, instance:com.asynctric.qa.Testcase.LoginPageTest@6325a3ee]" name="TearDowm" is-config="true" duration-ms="816" started-at="2021-03-10T18:36:33Z" finished-at="2021-03-10T18:36:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDowm -->
       </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
-    </test> <!-- Regration -->
-  </suite> <!-- Ecart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

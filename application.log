@@ -154,3 +154,23 @@
 2021-02-25 17:47:47,213 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2021-02-25 17:47:47,213 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2021-02-25 17:47:47,216 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ARUN/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2021-03-10 18:19:23,341  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:19:36,691  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:19:36,720  INFO [main] TestBase:48 - Title is ECart
+2021-03-10 18:19:55,618  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:19:55,882  INFO [main] TestBase:56 - Image Available true
+2021-03-10 18:31:46,237  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:31:58,534  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:31:58,571  INFO [main] TestBase:48 - Title is ECart
+2021-03-10 18:32:12,224  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:32:12,381  INFO [main] TestBase:56 - Image Available true
+2021-03-10 18:33:44,911  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:33:46,340  INFO [main] TestBase:65 - Login Succesfull and  Home page URL is https://ecomm-fed59.web.app/login
+2021-03-10 18:34:03,366  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:34:03,395  INFO [main] TestBase:48 - Title is ECart
+2021-03-10 18:35:59,361  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:36:00,977  INFO [main] TestBase:65 - Login Succesfull and  Home page URL is https://ecomm-fed59.web.app/login
+2021-03-10 18:36:15,668  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:36:15,684  INFO [main] TestBase:48 - Title is ECart
+2021-03-10 18:36:32,909  INFO [main] TestBase:39 - All setup successfuly
+2021-03-10 18:36:33,098  INFO [main] TestBase:56 - Image Available true

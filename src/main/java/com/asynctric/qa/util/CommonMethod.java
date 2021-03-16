@@ -2,6 +2,11 @@ package com.asynctric.qa.util;
 
 import java.io.File;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.Statement;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -13,10 +18,14 @@ import org.openqa.selenium.WebDriver;
 import com.asynctric.qa.base.TestBase;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.mysql.cj.protocol.Resultset;
+
 
 public class CommonMethod extends TestBase{
 
 	static ExtentReports extent;
+	static String host="localhost";
+	static String port="3306";
 	public CommonMethod() throws IOException {
 		super();
 		// TODO Auto-generated constructor stub
@@ -58,5 +67,20 @@ public class CommonMethod extends TestBase{
 		extent.setSystemInfo("Tester", "Arun Dubey");
 		return extent;
 		
+	}
+	
+	public  String DatabaseConnection(String username,String password) throws SQLException
+	{
+	Connection con=	DriverManager.getConnection("jdbc:mysql://"+host+":"+port+ "/test", "root" , "root");
+	Statement s= con.createStatement();
+	ResultSet rs= s.executeQuery("select * from user");
+	while(rs.next())
+	{
+	username =rs.getString("User_Name");
+	password =rs.getString("Password");
+	
+	}
+	return username;	
+	
 	}
 }
