@@ -5,7 +5,9 @@
     <classes>
       <class name="com.asynctric.qa.Testcase.LoginPageTest">
         <methods>
+          <include name="LoginPageTitleTest"/>
           <include name="setup"/>
+          <include name="LoginTest"/>
           <include name="VlidateImageTest"/>
           <include name="TearDowm"/>
         </methods>

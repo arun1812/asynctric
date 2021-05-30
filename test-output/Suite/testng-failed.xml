@@ -1,23 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+  <listeners>
+    <listener class-name="com.asynctric.qa.util.Listener"/>
+    <listener class-name="Analyzer.Transformer"/>
+  </listeners>
+  <test name="Demo(failed)">
     <classes>
-      <class name="com.asynctric.qa.Testcase.HomePageTest">
+      <class name="com.asynctric.qa.Testcase.CategoriesMenTest">
         <methods>
+          <include name="AddProductSecondTest"/>
+          <include name="setpage"/>
           <include name="TearDown"/>
-          <include name="scrolldownTest"/>
-          <include name="setuphomepage"/>
+          <include name="AddProductFirstTest"/>
         </methods>
-      </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
+      </class> <!-- com.asynctric.qa.Testcase.CategoriesMenTest -->
       <class name="com.asynctric.qa.Testcase.LoginPageTest">
         <methods>
+          <include name="LoginPageTitleTest"/>
           <include name="setup"/>
           <include name="LoginTest"/>
           <include name="VlidateImageTest"/>
           <include name="TearDowm"/>
         </methods>
       </class> <!-- com.asynctric.qa.Testcase.LoginPageTest -->
+      <class name="com.asynctric.qa.Testcase.HomePageTest">
+        <methods>
+          <include name="MoveToAddressPageTest"/>
+          <include name="TearDown"/>
+          <include name="scrolldownTest"/>
+          <include name="setuphomepage"/>
+          <include name="ValidatehomepageimageTest"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.HomePageTest -->
+      <class name="com.asynctric.qa.Testcase.RegistrationPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="ValidateRegPageTextTest"/>
+          <include name="RegFormExcelTest"/>
+          <include name="ValidateRegPageURLTest"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.RegistrationPageTest -->
+      <class name="com.asynctric.qa.Testcase.AddressPageTest">
+        <methods>
+          <include name="NewAddressFormTest"/>
+          <include name="setpage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.asynctric.qa.Testcase.AddressPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Demo(failed) -->
 </suite> <!-- Failed suite [Suite] -->

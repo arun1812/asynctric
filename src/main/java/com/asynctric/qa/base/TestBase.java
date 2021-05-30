@@ -48,7 +48,7 @@ public class TestBase {
 		String browsername = prop.getProperty("browser");
 		if(browsername.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","D:\\Selenium Setup\\chrome88\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","D:\\Selenium Setup\\chrome90\\chromedriver.exe");
 			//System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver=new ChromeDriver();
 		//	log.info("Chrome Driver Initialized");
